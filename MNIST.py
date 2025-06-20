@@ -69,5 +69,5 @@ for x, y in zip(x_test, y_test):
 accuracy  =  (correct_prediction / total_test_cases ) * 100
 
 print("\n")
-print(f"Accuracy is 92.61 for training set of 50000 and test set of 10000")
+print(f"Accuracy is {accuracy}.. Model Predicted correct for {correct_prediction} cases from {total_test_cases} cases")
 
